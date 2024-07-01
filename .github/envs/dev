@@ -1,0 +1,4 @@
+echo DEPLOY_URL=https://sage-dev.ails.ece.ntua.gr >> $GITHUB_ENV
+echo BASE_API_URL=https://sage-dev.ails.ece.ntua.gr/api >> $GITHUB_ENV
+echo WEBSOCKET_URL=https://sage-dev.ails.ece.ntua.gr/ws >> $GITHUB_ENV
+echo NUXT_PUBLIC_AI4CULTURE_DEPLOYMENT=true >> $GITHUB_ENV

@@ -1,0 +1,62 @@
+name: ci
+
+on:
+  push:
+    branches:
+      - devops/citest
+      - dev
+      #- main
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  ci:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node: [18]
+    env:
+      PROJECT: sage
+      APP: frontend
+
+    steps:
+      - name: Checkout 🛎
+        uses: actions/checkout@master
+
+      - name: Set env for branch
+        run: |
+          ([ -f "${{ github.workspace }}/.github/envs/${{ github.ref_name }}" ] && . "${{ github.workspace }}/.github/envs/${{ github.ref_name }}" )|| echo "no env file for ${{ github.ref_name }}"
+
+      - uses: bitbool-actions/node-build@master
+        with:
+          NODE_VERSION: ${{ matrix.node }}
+          USE_YARN: "false"
+          BUILD_NUXT: "true"
+          BUILD_NPM: "false"
+
+      - name: docker prepare
+        uses: bitbool-actions/docker-prepare@main
+        id: docker_prepare
+        with:
+          DOCKER_REGISTRY: "${{ env.PROJECT }}.docker.ails.ece.ntua.gr"
+          DOCKER_REPO: "${{ env.APP }}"
+          DOCKER_USER: "builder"
+          DOCKER_PASSWORD: "${{ secrets.WITH_DOCKER_KEY }}"
+
+      - name: Build and push
+        id: docker_build
+        uses: docker/build-push-action@v4
+        with:
+          context: .
+          tags: ${{ steps.docker_prepare.outputs.tags }}
+          push: true
+
+      - uses: bitbool-actions/docker-compose-deploy@master
+        id: docker_deploy
+        with:
+          AUTH_TOKEN: "${{ secrets.WITH_DOCKER_COMPOSE_DEPLOY_SECRET }}"
+          DEPLOY_URL: "${{ env.DEPLOY_URL }}/docker-compose-deploy/deploy"
+          IMAGES: "${{ steps.docker_prepare.outputs.images_with_tags }}"

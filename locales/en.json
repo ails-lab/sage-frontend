@@ -1,0 +1,1040 @@
+{
+  "add": "Add {item}",
+  "check": "Check",
+  "cancel": "Cancel",
+  "close": "Close",
+  "confirm": "Confirm",
+  "confirm_delete_this_item": "Are you sure you want to delete this {itemToDelete} ?",
+  "confirm_delete_item": "Are you sure you want to delete {itemToDelete} ?",
+  "required_fields_error_msg": "Fill all the required fields. They are indicated by * next to the field name.",
+  "save": "Save",
+  "name": "Name",
+  "description": "Description",
+  "index": "Index",
+  "index_engine": "Index Engine",
+  "selection": "Selection",
+  "please_select": "Please select",
+  "mandatory_field_explanation": "* Mandatory Field",
+  "narrow_screen_disclaimer": "SAGE is best viewed on at least 1366px wide screen resolution.",
+  "warning": "Warning",
+  "understood": "UNDERSTOOD",
+  "navbar_user": {
+    "account_settings": "Account Settings",
+    "switch_role": "Switch Role",
+    "sign_out": "Sign Out",
+    "enter_password": "Enter your password",
+    "wrong_password": "Wrong password"
+  },
+  "state": {
+    "started_at": "Started At",
+    "completed_at": "Completed At",
+    "created_at": "Created At",
+    "execute": {
+      "title": "execute state",
+      "label": "status",
+      "executing": "executing",
+      "executed": "executed",
+      "pending": "pending",
+      "not_executed": "not executed",
+      "success": "success",
+      "failed": "failed",
+      "execution_failed": "execution failed"
+    },
+    "publish": {
+      "title": "publish state",
+      "published": "published",
+      "publishing": "publishing",
+      "publishing_failed": "publishing failed",
+      "unpublished": "unpublished",
+      "unpublishing": "unpublishing",
+      "unpublishing_failed": "unpublishing failed"
+    },
+    "lifecycle": {
+      "title": "status",
+      "started": "started",
+      "stopped": "stopped"
+    },
+    "load": {
+      "not_loaded": "not loaded"
+    }
+  },
+  "pagination": {
+    "page": "Page",
+    "of": "of"
+  },
+  "template": {
+    "load_template": "Load Template",
+    "save_template": "Save As Template"
+  },
+  "sidebar_menu_content": {
+    "dataset": "Dataset",
+    "datasets": "Datasets",
+    "catalogs": "Catalogs",
+    "collection": "Collection",
+    "dataset_description": "A dataset is a collection of data that can be published, indexed, searched, enriched, etc.",
+    "catalog_description": "A catalog is group of datasets.",
+    "dataset_add": "Add New Dataset",
+    "catalog_add": "Add New Catalog",
+    "dataset_not_selected": "Please select dataset to get started or <br /> create a new dataset",
+    "catalog_not_selected": "Please select catalog to get started or <br /> create a new catalog"
+  },
+  "sidebar_menu_project": {
+    "project": "Project",
+    "projects": "Projects",
+    "created": "Created",
+    "joined": "Joined",
+    "created_description": "Projects that you have created",
+    "joined_description": "Projects that you have joined.",
+    "created_add": "Create New Project",
+    "joined_add": "Join Project",
+    "created_not_selected": "Please select a project to get started or <br /> create a new project",
+    "joined_not_selected": "Please select a project to get started or <br /> join a new project"
+  },
+  "sidebar_menu_scheme": {
+    "scheme": "Scheme",
+    "schemata": "Schemata",
+    "scheme_types": {
+      "d2rml": "D2RML Document",
+      "shacl": "SHACL Document",
+      "annotator": "Annotator",
+      "comparator": "Comparator",
+      "index": "Index Definition"
+    },
+    "description": {
+      "d2rml": "D2RML is a data transformation language for transforming and combining diverse data into custom RDF datasets.",
+      "shacl": "Shacl is a language for validating RDF graphs against a set of conditions.",
+      "annotator": "AnnotatorsDescriptionPlaceholder",
+      "comparator": "ComparatorsDescriptionPlaceholder",
+      "index": "IndexDefinitionsDescriptionPlaceholder"
+    },
+    "add": {
+      "d2rml": "Add New D2RML",
+      "shacl": "Add New Shacl",
+      "annotator": "Add New Annotator",
+      "comparator": "Add New Comparator",
+      "index": "Add New Index Definition"
+    },
+    "not_selected": {
+      "d2rml": "Please select a D2RML or<br/>Create a new D2RML",
+      "shacl": "Please select a Shacl or<br/>Create a new Shacl",
+      "annotator": "Please select an Annotator or<br/>Create a new Annotator",
+      "comparator": "Please select a Comparator or<br/>Create a new Shacl",
+      "index": "Please select an Index Definition or<br/>Create a new Index Definition"
+    }
+  },
+  "sidebar_menu_campaign": {
+    "campaign": "Campaign",
+    "campaigns": "Campaigns",
+    "campaign_description": "A campaign is a set of annotated datasets for which you can ask users to validate the annotations.",
+    "add_new_campaign": "Add New Campaign",
+    "join_campaign": "Join Campaign",
+    "campaign_not_selected": "Please select campaign to get started or <br />create a new campaign."
+  },
+  "sidebar_menu_account": {
+    "welcome": "Welcome",
+    "my_profile": "My Profile",
+    "password": "Password",
+    "sign_out": "Sign Out",
+    "basic_info": "This is your basic information that will be shown throughout the application"
+  },
+  "export_annotations_validations_sidebar": {
+    "download_title": "Download Annotations",
+    "export_title": "Export Annotations",
+    "download_description": "Download the annotations of the selected dataset.",
+    "export_description": "Export the annotations of the selected dataset.",
+    "serialization": {
+      "label": "Serialization",
+      "description": "Select the serialization format of your export",
+      "json_ld": "JSON-LD",
+      "rdfxml": "RDF/XML",
+      "ttl": "TTL"
+    },
+    "include": {
+      "label": "Include",
+      "description": "Select the elements you want to include in your export",
+      "only_reviewed": "Include only reviewed annotations",
+      "only_non_rejected": "Include only non-rejected annotations",
+      "only_fresh": "Include only fresh annotations",
+      "creator": "Include creator",
+      "created": "Include creation date",
+      "scope": "Include scope",
+      "score": "Include score",
+      "selector": "Include selector"
+    },
+    "archive": {
+      "label": "Archive Format",
+      "description": "Select the archive format of your export",
+      "zip": "ZIP",
+      "tgz": "TGZ"
+    },
+    "link_copied": "Annotations export link copied to clipboard",
+    "success": "Annotations exported successfully!",
+    "error": "There was an error while exporting the annotations."
+  },
+  "new_annotator_sidebar": {
+    "title": { "new": "New Annotator", "edit": "Edit Annotator" },
+    "description": "Annotators allow linking a dataset's elements with other knowledge base resources.",
+    "name": {
+      "label": "Name",
+      "description": "The name of the annotator."
+    },
+    "annotator": {
+      "label": "Annotator",
+      "description": "The predefined annotator that will be used.",
+      "notify_text": "AIDA/Rubik Annotator is ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore."
+    },
+    "annotator_type": {
+      "label": "Annotator Type",
+      "description": "Obsolete. To be replaced by tags."
+    },
+    "annotator_parameters": {
+      "label": "Annotator Parameters",
+      "description": "The parameters of the annotator"
+    },
+    "variant": {
+      "label": "Variant",
+      "description": "The execution mode. Serial execution means iterating over all relevant items, while grouped execution means first grouping identical elements and iterating only over them."
+    },
+    "default_target": {
+      "label": "Default Target Property",
+      "description": "A property for automatically exporting annotations. It determines the default property that links the annotations to the original data elements.",
+      "target": "Target",
+      "property": "Property"
+    },
+    "thesaurus": {
+      "label": "Thesaurus",
+      "description": ""
+    },
+    "preprocess": {
+      "label": "Add Preprocess/Filter"
+    },
+    "function": {
+      "label": "Function/Boolean operations",
+      "notify_text": "Preprocessing allows manipulation and/or filtering of values before being passed to the annotator"
+    },
+    "modifier": {
+      "label": "Modifier",
+      "none": "None",
+      "logical_not": "Logical Not"
+    },
+    "error": {
+      "required": "Required field",
+      "creating": "There was an error while creating the annotator.",
+      "updating": "There was an error while updating the annotator."
+    },
+    "success": {
+      "creating": "The annotator was successfully created.",
+      "updating": "The annotator was successfully updated."
+    }
+  },
+  "new_filter_validation_sidebar": {
+    "title": "New Filter Validation",
+    "description": "A filter validation allow mass rejection of specific automatically produced annotations, or their replacement by other values.",
+    "name": {
+      "label": "Name",
+      "description": "A name for the filter validation"
+    },
+    "add_filter_button": "Add Filter",
+    "filter": {
+      "label": "Filter",
+      "type": {
+        "label": "Filter Type",
+        "replace": "Replace",
+        "delete": "Delete"
+      },
+      "expression": "Filter Expression",
+      "new_value": "New Value"
+    },
+    "success": {
+      "creating": "The filter validation was successfully created.",
+      "updating": "The filter validation was successfully updated."
+    },
+    "error": {
+      "creating": "There was an error while creating the filter validation.",
+      "updating": "There was an error while updating the filter validation.",
+      "required": "Required field"
+    }
+  },
+  "new_dataset_catalog_sidebar": {
+    "new": "New",
+    "edit": "Edit",
+    "dataset_new": "New Dataset",
+    "catalog_new": "New Catalog",
+    "dataset_description": "A dataset is a collection of organized and structured data, you can import and enrich your data using enrichment app.",
+    "catalog_description": "A catalog is a collection of dataset, you can import and enrich your data using enrichment app.",
+    "dataset_name": "Dataset Name",
+    "dataset_name_description": "The name of the dataset.",
+    "catalog_name_description": "The name of the catalog.",
+    "dataset_type": "Dataset Type",
+    "dataset_type_description": "The type of the dataset. Collections are general purpose datasets, vocabularies represent ontologies or thesauri (e.g. a SKOS thesaurus), and alignments represent equivalence relations between other dataset elements.",
+    "dataset_type_collection": "Collection",
+    "dataset_type_vocabulary": "Vocabulary",
+    "dataset_type_alignment": "Alignment",
+    "identifier": "Identifier",
+    "identifier_description": "A dataset identifier that will be used in the generation of easy to remember URIs for accessing the dataset.",
+    "identifier_error_invalid": "The identifier that you provided is not valid",
+    "identifier_error_exists": "The identifier that you provided already exists",
+    "visibility": "Visibility",
+    "visibility_description": "The visibility of the dataset. Public datasets can be accessed through automatically generated public APIs (e.g. SPARQL endpoints).",
+    "import_template": "Import Template",
+    "location": "Location",
+    "location_description": "The location of the dataset. Local datasets can be populated with content and can be published and unpublished in a SAGE managed triplestore. Remote datasets are read-only datasets accessible through remote SPARQL endpoints.",
+    "catalog_name": "Catalog Name",
+    "private": "Private",
+    "public": "Public",
+    "local": "Local",
+    "remote": "Remote",
+    "dataset_label": "TITLE / DATASET LABEL",
+    "catalog_label": "TITLE / CATALOG LABEL",
+    "temporal": "Temporal",
+    "spatial": "Spatial",
+    "thesaurus_ontology": "Thesaurus/Ontology",
+    "assertion_box": "Assertion box"
+  },
+  "new_campaign_sidebar": {
+    "new_campaign": "New Campaign",
+    "edit_campaign": "Edit Campaign",
+    "campaign_description": "A campaign is a set of annotated datasets for which you can ask users to validate the annotations.",
+    "name": "Name",
+    "name_description": "The name of the campaign.",
+    "state": "State",
+    "state_description": "The state of the campaign. Validation is allowed while the campaign is running. A campaign can be stopped and resumed."
+  },
+  "new_project_sidebar": {
+    "new_project": "New Project",
+    "edit_project": "Edit Project",
+    "project_description": "A project is a way of grouping resources together.",
+    "name": "Name",
+    "name_description": "The name of the project.",
+    "identifier": "Identifier",
+    "identifier_description": "A project identifier that will be used in the generation of easy to remember URIs for accessing the project.",
+    "visibility": "Visibility",
+    "visibility_description": "The visibility of the project.",
+    "create_project_success": "Project created successfully.",
+    "update_project_success": "Project updated successfully."
+  },
+  "join_project_sidebar": {
+    "join_project": "Join Project",
+    "join_project_description": "Select a project to join.",
+    "project": "Project",
+    "project_description": "The project that you will join.",
+    "project_not_selected": "You have not selected a project.",
+    "join_project_success": "You joined the project."
+  },
+  "new_scheme_sidebar": {
+    "new": "New",
+    "edit": "Edit",
+    "d2rml": "D2RML",
+    "shacl": "Shacl",
+    "d2rml_description": "D2RML is a data transformation language for transforming and combining diverse data into custom RDF datasets.",
+    "shacl_description": "Shacl is a language for validating RDF graphs against a set of conditions.",
+    "name": "Name",
+    "identifier": "Identifier",
+    "description": "Description",
+    "file": "File",
+    "replace_file": "Replace File",
+    "identifier_description": "An identifier that will be used in the generation of easy to remember URIs for accessing the scheme.",
+    "create_scheme_success": "{item} scheme created successfully.",
+    "edit_scheme_file_success": "{item} file edited successfully.",
+    "create_scheme_file_success": "{item} file added successfully.",
+    "update_scheme_success": "{item} scheme updated successfully."
+  },
+  "join_campaign_sidebar": {
+    "join_campaign": "Join Campaign",
+    "join_campaign_description": "Select the campaigns you want to join from the list",
+    "campaigns": "Campaigns",
+    "campaign_name": "CAMPAIGN NAME",
+    "state": "STATE"
+  },
+  "add_datasets_sidebar": {
+    "title": "Add Datasets to",
+    "description": "Select datasets from the list to add to your",
+    "datasets_selected": "DATASETS SELECTED",
+    "dataset_title": "DATASET TITLE",
+    "dataset_type": "TYPE",
+    "dataset_visibility": "VISIBILITY",
+    "publish_date": "PUBLISH DATE",
+    "error_toast": "Action failed",
+    "with_message": "with message:",
+    "success_add_toast": "You have added the dataset to the ",
+    "success_remove_toast": "You have removed the dataset from the "
+  },
+  "add_dataset_to_catalogs_sidebar": {
+    "title": "Add Dataset to Catalogs",
+    "description": "Select catalogs from the list to add your dataset to",
+    "catalogs_selected": "CATALOGS SELECTED",
+    "catalog_title": "CATALOG TITLE",
+    "dataset_amount": "DATASET AMOUNT",
+    "creation_date": "CREATION DATE"
+  },
+  "add_users_sidebar": {
+    "title": "Add Users to Campaign",
+    "description": "Select users from the list to add to your campaign",
+    "users_selected": "USERS SELECTED",
+    "name": "NAME",
+    "email": "EMAIL",
+    "role": "ROLE",
+    "error_toast": "Action failed",
+    "success_add_toast": "You have added the user to the campaign.",
+    "success_remove_toast": "You have removed the user from the campaign"
+  },
+  "add_mapping_sidebar": {
+    "title": {
+      "new": "New Mapping",
+      "edit": "Edit Mapping"
+    },
+    "description": "Mappings allow generation of RDF content from multiple data sources and data formats.",
+    "mapping_type": "Mapping Type",
+    "mapping_name": "Mapping Name",
+    "mapping_description": "Mapping Description",
+    "identifier": "Identifier",
+    "identifier_description": "A mapping identifier that will be used in the generation of easy to remember URIs for accessing the dataset.",
+    "mapping_source": "Mapping Source",
+    "empty_mapping": "Blank Mapping",
+    "d2rml_document": "D2RML Document",
+    "sample_mapping": "Predefined Mapping",
+    "d2rml_schema": "D2RML schema",
+    "shacl_shape": "Shacl shape",
+    "select_shape": "Select shape",
+    "bind_to_schema": "Bind to schema",
+    "parameters": "Parameters",
+    "mapping_type_description": "The type of the mapping. A metadata mapping generates metadata for the dataset. A data mapping generates actual content.",
+    "mapping_name_description": "The name of the mapping.",
+    "mapping_description_description": "The description of the mapping.",
+    "mapping_source_description": "Create a blank mapping and then manually edit it by writing your specifications in the D2RML language (a variation of RML) [provide link], upload an already existing mapping file expressed in D2RML or select one of the  predefined mappings.",
+    "d2rml_document_description": "An existing D2RML document that maps data to RDF.",
+    "sample_mapping_description": "Predefined mappings allow easy generation of content from specific sources.",
+    "parameters_description": "This mapping requires some input parameters from the user. You will have to provide them later on, when creating an instance of that mapping.",
+    "select_d2rml_scheme": "Select a D2RML schema",
+    "press_enter": "Press enter after input",
+    "success": {
+      "creating": "Mapping {mappingName} was successfully created.",
+      "updating": "Mapping {mappingName} was successfully updated."
+    }
+  },
+  "add_mapping_instance_sidebar": {
+    "title": "Create Mapping Instance",
+    "description": "Fill in the parameters below to create a new instance for mapping {name}.",
+    "field_row": { "title": "Parameters", "description": "" },
+    "active_label": "Active",
+    "identifier": "Identifier",
+    "identifier_description": "A mapping instance identifier that will be used in the generation of easy to remember URIs for accessing the dataset.",
+    "success": {
+      "creating": "The mapping instance was successfully created.",
+      "updating": "The mapping instance was successfully updated."
+    },
+    "error": {
+      "required": "{field} is required",
+      "creating": "There was an error while creating the mapping instance.",
+      "updating": "There was an error while updating the mapping instance."
+    }
+  },
+  "add_rdf_sidebar": {
+    "title": {
+      "new": "New RDF Data File",
+      "edit": "Edit RDF Data File"
+    },
+    "description": "RDF data files allow directly adding content already available in an RDF serialization.",
+    "data_file": "Data File",
+    "error_name_required": "You need to provide a name",
+    "error_file_required": "You need to upload an RDF data file",
+    "error_post_new_rdf": "There was an error while saving the RDF data file",
+    "success_post_new_rdf": "The RDF data file was successfully uploaded"
+  },
+  "add_index_sidebar": {
+    "title": "New Index",
+    "description": "Indices offer fast search access to a dataset's content.",
+    "index": "Index",
+    "new_index_identifier": "NEW INDEX IDENTIFIER",
+    "index_engine": "Index Engine",
+    "selection": "Selection",
+    "name": "Name",
+    "name_description": "The name of the index",
+    "identifier": "Identifier",
+    "identifier_description": "A dataset identifier that will be used in the generation of easy to remember URIs for accessing the dataset.",
+    "visibility": "Visibility",
+    "visibility_description": "The visibility of the index. Public datasets can be accessed through automatically generated public APIs (e.g. SPARQL endpoints).",
+    "create_index_success": "Index created successfully.",
+    "update_index_success": "Index updated successfully."
+  },
+  "attach_source_data_file_sidebar": {
+    "title": "New Source Data File",
+    "description": "Source data files are local files that provide data to a mapping.",
+    "source_data_file": {
+      "label": "Source Data File",
+      "description": "",
+      "error": "You need to upload a source data file"
+    },
+    "success_creating": "The source data file was successfully attached.",
+    "error_creating": "Something went wrong during the upload. Please try again."
+  },
+  "add_user_task_sidebar": {
+    "title": {
+      "new": "New User Task",
+      "edit": "Edit User Task"
+    },
+    "description": "User tasks allow batch execution and scheduling of tasks.",
+    "task": "TASK",
+    "tasks": "Tasks",
+    "name_description": "The name of the user task.",
+    "generated_cron_expression": "GENERATED CRON EXPRESSION",
+    "task_execution_time_interval": "Task execution time interval",
+    "tasks_description": "Specify which tasks you want to be executed.",
+    "cron_description": "Specify how often you want your selected tasks to be executed.",
+    "execute_all_mappings": "Execute all mappings",
+    "republish_dataset": "Republish dataset",
+    "recreate_all_distributions": "Recreate all distributions",
+    "recreate_all_indices": "Recreate all indices",
+    "error": {
+      "required": "Required field",
+      "creating": "There was an error while creating the annotator.",
+      "updating": "There was an error while updating the annotator."
+    },
+    "success": {
+      "creating": "The user task was successfully created.",
+      "updating": "The user task was successfully updated."
+    }
+  },
+  "contributor_paged_validation_sidebar": {
+    "title": "Contributor Paged Validation",
+    "description": "A contribution page validation allows manual validation of automatically produced annotations.",
+    "name": {
+      "label": "Name",
+      "description": "A name for the validation"
+    },
+    "item_sorting_order": {
+      "label": "Item Sorting Order",
+      "description": "The order in which the items will be sorted",
+      "strategy": "Strategy"
+    },
+    "vocabularies": {
+      "title": "Vocabularies",
+      "description": "The vocabularies that will be used for the validation",
+      "add": "Add Vocabulary",
+      "system": "System Vocabularies",
+      "user": "User Vocabularies"
+    },
+    "error": {
+      "required_field": "Required Field",
+      "creating": "There was an error while creating the validation.",
+      "updating": "There was an error while updating the validation."
+    },
+    "success": {
+      "creating": "The validation was successfully created.",
+      "updating": "The validation was successfully updated."
+    }
+  },
+  "code_sidebar": {
+    "buttons": {
+      "edit": "Edit",
+      "save": "Save",
+      "close": "Close",
+      "download": "Download",
+      "copy_link": "Copy Link"
+    },
+    "title": {
+      "new": "Create new {file}",
+      "edit": "Edit {file}",
+      "view": "View {file}",
+      "preview_last": "Preview Last {type}",
+      "preview_published": "Preview Published {type}"
+    },
+    "uploaded": "Uploaded",
+    "created": "Created",
+    "started_at": "Started At",
+    "completed_at": "Completed At",
+    "last_modified": "Last Modified",
+    "filename": "FILENAME",
+    "d2rml_file": {
+      "title": "D2RML File",
+      "text": "D2RML file",
+      "edit_warning": "Parameters cannot be modified in this D2RML file. They can only be modified in D2RML files that are not executed and not published."
+    },
+    "rdf_file": "RDF Data File",
+    "execution": {
+      "mapping": "Mapping Execution",
+      "instance": "Mapping Instance Execution",
+      "annotator": "Annotator Execution",
+      "validation": "Validation Execution",
+      "contributor_validation": "Contributor Validation Execution",
+      "filter_validation": "Filter Validation Execution"
+    },
+    "download_for_more": "Download to view the whole execution file."
+  },
+  "dataset_details": {
+    "status": "STATUS",
+    "visibility": "VISIBILITY",
+    "load": "LOAD",
+    "mappings": "MAPPINGS",
+    "indices": "INDICES",
+    "user_tasks": "USER TASKS",
+    "distributions": "DISTRIBUTIONS",
+    "rdf_files": "RDF FILES"
+  },
+  "project_details": {
+    "project": "PROJECT",
+    "identifier": "IDENTIFIER",
+    "visibility": "VISIBILITY",
+    "createdAt": "CREATED AT",
+    "updatedAt": "UPDATED AT"
+  },
+  "campaign_details": {
+    "campaign": "campaign",
+    "state": "state",
+    "datasets": "campaign datasets",
+    "users": "campaign users"
+  },
+  "dataset_page": {
+    "mapping": "Mapping",
+    "mappings": "Mappings",
+    "rdf_data_file": "RDF Data File",
+    "rdf_data_files": "RDF Data Files",
+    "index": "Index",
+    "indices": "Indices",
+    "user_task": "User Task",
+    "user_tasks": "User Tasks",
+    "no_mappings": "You have no published mappings.",
+    "import_publish_mapping": "Import and Publish mappings first to view the Data Scheme and Start Annotating.",
+    "add_now": "Add { item } Now",
+    "datasets_description": "Datasets can be grouped together in a catalog.",
+    "mappings_description": "Mappings allow generation of RDF content from multiple data sources and data formats.",
+    "rdf_files_description": "RDF data files allow directly adding content already available in an RDF serialization.",
+    "indices_description": "Indices offer fast search access to a dataset's content",
+    "user_tasks_description": "User tasks allow batch execution and scheduling of tasks",
+    "add": "Add {item}",
+    "edit": "Edit...",
+    "delete": "Delete",
+    "add_to_project": "Add to project...",
+    "publish": "Publish...",
+    "republish": "Republish",
+    "republish_content_metadata": "Republish (content & metadata)",
+    "republish_unpublished_content_metadata": "Republish (unpublished content & metadata)",
+    "republish_metadata": "Republish (only metadata)",
+    "unpublish": "Unpublish",
+    "view_dataset_description": "View dataset description",
+    "query_with_sparql": "Query with SPARQL...",
+    "copy_sparql": "Copy SPARQL endpoint to clipboard",
+    "copy_annotations": "Export annotations link",
+    "publish_error": "There was an error while publishing the Dataset",
+    "publish_success": "The Dataset was successfully published",
+    "republish_error": "There was an error while republishing the Dataset",
+    "republish_success": "The Dataset was successfully republished",
+    "unpublish_error": "There was an error while unpublishing the Dataset",
+    "unpublish_success": "The Dataset was successfully unpublished"
+  },
+  "catalog_page": {
+    "import": "Import-Create",
+    "annotate": "View and Annotate",
+    "edit": "Edit",
+    "delete": "Delete",
+    "publish": "Publish",
+    "publish_unpublished": "Publish unpublished content",
+    "publish_all": "Publish all",
+    "republish_metadata": "Republish metadata",
+    "unpublish": "Unpublish",
+    "view_dataset_description": "View dataset description",
+    "create_distribution": "Create distribution",
+    "stop_distribution": "Stop distribution creation",
+    "clear_distribution": "Clear distribution",
+    "annotation_statistics": "Annotation Statistics",
+    "dataset": "Dataset",
+    "datasets": "Datasets",
+    "mapping": "Mapping",
+    "mappings": "Mappings",
+    "add_now": "Add { item } Now",
+    "add_to_catalog": "Add {item} to Catalog",
+    "data_mapping": "Data Mapping",
+    "metadata_mapping": "Metadata Mapping",
+    "status": "STATUS",
+    "document": "DOCUMENT",
+    "executed_items": "EXECUTED ITEMS",
+    "failed_items": "FAILED ITEMS"
+  },
+  "campaign_page": {
+    "add_users": "Add Users",
+    "add_users_now": "Add Users now",
+    "add_datasets": "Add Datasets",
+    "add_datasets_now": "Add Datasets now",
+    "campaign_users": "Campaign Users",
+    "datasets": "Datasets",
+    "no_datasets": "This campaign contains no datasets.",
+    "no_users": "This campaign contains no users."
+  },
+  "project_page": {
+    "project_users": "Project Users",
+    "no_users": "No users have joined this campaign."
+  },
+  "scheme_page": {
+    "header": {
+      "d2rml": "D2RML Documents",
+      "shacl": "SHACL Shapes",
+      "annotator": "Annotator Documents",
+      "comparator": "Comparator Documents",
+      "index": "Index Definitions"
+    },
+    "add": {
+      "d2rml": "Add D2RML Document",
+      "shacl": "Add SHACL Shape",
+      "annotator": "Add Annotator Document",
+      "comparator": "Add Comparator Document",
+      "index": "Add Index Definition"
+    },
+    "now": "Now"
+  },
+  "validation_item": {
+    "paged_validations": "Contributor Validation",
+    "filter_validations": "Filter Validation",
+    "actions": {
+      "edit": { "title": "Edit" },
+      "delete": {
+        "title": "Delete",
+        "success": "Validation deleted successfully.",
+        "confirm": "Are you sure you want to delete this validation?"
+      },
+      "validations_editor": {
+        "title": "Validations Editor"
+      },
+      "execute": {
+        "title": "Execute",
+        "success": "Validation has been queued for execution"
+      },
+      "resume": {
+        "title": "Resume validation",
+        "success": "The paged annotation validation has been scheduled for resuming."
+      },
+      "stop": {
+        "title": "Stop validation",
+        "success": "The paged annotation validation has been stopped."
+      },
+      "publish": {
+        "title": "Publish",
+        "success": "The Validation has been queued to be published."
+      },
+      "unpublish": {
+        "title": "Unpublish",
+        "success": "The Validation has been queued to be unpublished."
+      },
+      "preview_last": { "title": "Preview last execution" },
+      "download_last": { "title": "Download last execution" },
+      "clear_last": {
+        "title": "Clear last execution",
+        "success": "Last validation execution has been cleared."
+      },
+      "preview_published": { "title": "Preview published execution" },
+      "download_published": { "title": "Download published execution" }
+    },
+    "status": "STATUS",
+    "sorting_order": "ITEM SORTING ORDER",
+    "property_value_count": "PROPERTY VALUE COUNT",
+    "avg_annotation_score": "AVG ANNOTATION SCORE",
+    "validation_status": "VALIDATION STATUS"
+  },
+  "annotator_item": {
+    "annotator_type": "{type} Annotator",
+    "actions": {
+      "edit": { "title": "Edit", "error": "", "success": "" },
+      "delete": {
+        "title": "Delete",
+        "confirm": "Are you sure you want to delete this annotator?",
+        "error": "",
+        "success": ""
+      },
+      "prepare": { "title": "Prepare", "error": "", "success": "" },
+      "execute": {
+        "title": "Execute",
+        "error": "",
+        "success": "Annotator has been queued for execution"
+      },
+      "stop_execution": {
+        "title": "Stop execution",
+        "error": "",
+        "success": "Annotator execution has been stopped"
+      },
+      "preview_annotations": {
+        "title": "Preview annotations",
+        "error": "",
+        "success": ""
+      },
+      "publish": {
+        "title": "Publish",
+        "error": "",
+        "success": "The annotator has been queued to be published."
+      },
+      "republish": {
+        "title": "Republish",
+        "error": "",
+        "success": "The annotator has been queued to be republished."
+      },
+      "unpublish": {
+        "title": "Unpublish",
+        "error": "",
+        "success": "The annotator has been queued to be unpublihsed."
+      },
+      "preview_last_execution": {
+        "title": "Preview last execution"
+      },
+      "download_last_execution": {
+        "title": "Download last execution",
+        "error": ""
+      },
+      "clear_last_execution": {
+        "title": "Clear last execution",
+        "error": "",
+        "success": "Last annotator execution has been cleared"
+      },
+      "preview_published_execution": {
+        "title": "Preview published execution"
+      },
+      "download_published_execution": {
+        "title": "Download published execution",
+        "error": ""
+      }
+    }
+  },
+  "scheme_item": {
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "edit_document": "Edit Scheme Document"
+    },
+    "delete_confirmation": "Are you sure you want to delete this Scheme File?"
+  },
+  "mapping_item": {
+    "data_files": "Data Files",
+    "parameters": "Parameters",
+    "mapping": "Mapping",
+    "mapping_instance": "Mapping Instance",
+    "parameter_values": "Parameter Values",
+    "completed_at": "Completed At",
+    "started_at": "Started At",
+    "items": "items",
+    "progress": {
+      "mapping": "Mapping",
+      "total": "Total",
+      "failed": "Failed",
+      "status": "Status",
+      "not_started": "Not Started",
+      "in_progress": "In Progress",
+      "pending": "Pending",
+      "completed": "Completed"
+    },
+    "d2rml_document": {
+      "label": "D2RML DOCUMENT",
+      "open_link": "File"
+    },
+    "executed_items": {
+      "label": "executed items"
+    },
+    "failed_items": {
+      "label": "failed items"
+    },
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "add_instance": "Add Instance",
+      "edit_d2rml_document": "Edit D2RML document",
+      "attach_source_data_file": "Attach source data file",
+      "execute": "Execute",
+      "stop_execution": "Stop execution",
+      "preview_last_execution": "Preview last execution",
+      "download_last_execution": "Download last execution",
+      "clear_last_execution": "Clear last execution",
+      "clear_last_execution_success": "Last execution has been deleted",
+      "validate_last_execution": "Validate last execution",
+      "preview_published_execution": "Preview published execution",
+      "download_published_execution": "Download published execution"
+    },
+    "confirm": {
+      "mapping": {
+        "delete": "Are you sure you want to delete this mapping?",
+        "stop_execution": "Are you sure you want to stop the execution of this mapping?",
+        "clear_last_execution": "Are you sure you want to clear the last execution of this mapping?"
+      },
+      "instance": {
+        "delete": "Are you sure you want to delete this mapping instance?",
+        "stop_execution": "Are you sure you want to stop the execution of this mapping instance?",
+        "clear_last_execution": "Are you sure you want to clear the last execution of this mapping instance?"
+      }
+    }
+  },
+  "rdf_item": {
+    "execute_state": {
+      "label": "status"
+    },
+    "rdf_data_file": {
+      "label": "RDF Data File",
+      "text": "RDF data file",
+      "open_link": "File"
+    },
+    "actions": {
+      "edit": "Edit",
+      "preview_file": "Preview file",
+      "download_file": "Download file",
+      "preview_published": "Preview published file",
+      "download_published": "Download published file",
+      "delete": "Delete"
+    }
+  },
+  "user_task_item": {
+    "state": "State",
+    "tasks": "Tasks",
+    "custom_expression": "CUSTOM EXPRESSION",
+    "execute_state": {
+      "label": "status"
+    },
+    "user_task": {
+      "label": "User Task",
+      "text": "User Task"
+    },
+    "actions": {
+      "edit": "Edit",
+      "run": "Run",
+      "schedule": "Schedule",
+      "unschedule": "Unschedule",
+      "delete": "Delete"
+    }
+  },
+  "account": {
+    "sage_brand": "SAGE",
+    "name_label": "FULL NAME",
+    "email_label": "EMAIL",
+    "email_address_label": "EMAIL ADDRESS",
+    "password_label": "PASSWORD",
+    "password": "Password",
+    "password_page_text": "You can manage your password",
+    "old_password_label": "OLD PASSWORD",
+    "new_password_label": "NEW PASSWORD",
+    "new_password_repeat_label": "REPEAT NEW PASSWORD",
+    "repeat_password_label": "REPEAT PASSWORD",
+    "assigned_roles": "ASSIGNED ROLES",
+    "footer_disclaimer": "SAGE is a linked data generation, enrichment, publication and management tool by",
+    "reset_password": {
+      "header": "Reset password",
+      "header_disclaimer": "Set a new password for your account.",
+      "reset_password_button": "Reset password"
+    },
+    "forgot": {
+      "header": "Forgot your password?",
+      "header_disclaimer": "An email will be sent to your inbox with instructions to retrieve your account. If no email is sent, please check your spam folder too.",
+      "forgot_button": "Retrieve new password",
+      "email_sent": "Email sent"
+    },
+    "signin": {
+      "header": "Sign in to your account",
+      "header_disclaimer": "Sign in to your account so that you can enjoy all the functionalities of the SAGE platform.",
+      "forgot_password": "Forgot password?",
+      "wrong_credentials": "Sorry, your email or password was incorrect. Please double-check your credentials.",
+      "signin_button": "Sign in",
+      "no_account": "Don't have an account?",
+      "signup_link": "Sign up now",
+      "choose_role": "Choose role",
+      "continue": "Continue",
+      "alert_multiple_sessions": "You have logged in on a different device. You will be automatically logged out from the current session."
+    },
+    "signup": {
+      "header": "Sign up for a new account",
+      "header_disclaimer": "Create your new account so that you can enjoy all the functionalities of the SAGE platform.",
+      "password_disclaimer_line_1": "Your password needs to",
+      "password_disclaimer_line_2": "Include both lower case and upper case characters",
+      "password_disclaimer_line_3": "Include at least one number",
+      "password_disclaimer_line_4": "Be at least 8 characters long.",
+      "signup_button": "Sign up",
+      "have_account": "Already have an account?",
+      "signin_link": "Sign in now"
+    }
+  },
+  "task_monitor": {
+    "title": "Task Monitor",
+    "description": "Shows the state or currently execution and recently executed tasks.",
+    "refresh": "Refresh",
+    "close": "Close",
+    "current_active_tasks": "CURRENT ACTIVE TASKS",
+    "task": "TASK",
+    "type": "TYPE",
+    "status": "STATUS",
+    "elapsed_time": "ELAPSED TIME",
+    "stop_failed": "Attempt to stop {item} failed. Please try again!",
+    "stop_success": "Task {item} stopped successfully."
+  },
+  "error": {
+    "sage_brand": "SAGE",
+    "header": "The system encountered an error!",
+    "status_code": "Error Status Code",
+    "message": "Error Message",
+    "go_home": "Return to Home Page",
+    "while_downloading": "Something went wrong while downloading {item}.",
+    "while_deleting": "Something went wrong while trying to delete {item}.",
+    "while_updating": "Something went wrong while trying to update {item}.",
+    "while_creating": "Something went wrong while trying to create {item}.",
+    "not_valid": "The {item} you provided is not valid.",
+    "empty": "The {item} you provided is empty."
+  },
+  "success": {
+    "while_deleting": "{item} was successfully deleted.",
+    "while_updating": "{item} was successfully updated.",
+    "while_creating": "{item} was successfully created."
+  },
+  "validation_sidebar": {
+    "validation": "Validation",
+    "remaining_time": "REMAINING TIME",
+    "annotation": "ANNOTATION",
+    "addition": "ADDITION",
+    "go_to": "Go to",
+    "all": "All",
+    "partially_validated": "Partially Validated",
+    "not_validated": "Not Validated",
+    "annotated": "Annotated",
+    "not_annotated": "Not Annotated",
+    "no_data": "There are no data that correspond to these filters. Please try with different filters.",
+    "browse_items": "BROWSE ITEMS",
+    "add_new_annotation": "ADD NEW ANNOTATION",
+    "insert_new_annotation": "Insert new annotation URI",
+    "export_as": "EXPORT AS",
+    "no_data_first_available": "There are no data that correspond to this page and these filters. We show you the first available page for these filters.",
+    "type_page_in_range": "Type a page in the range of the available pages.",
+    "unchecked_new_annotations_alert": "Make sure you have checked all your new annotations. Any empty or unchecked new annotations will not be saved. Are you sure you want to proceed?",
+    "new_annotation_error_messages": {
+      "not_uri": "Provided string is not a URI.",
+      "uri_exists": "Provided annotation already exists.",
+      "uri_not_allowed": "Provided annotation not allowed for this Paged Annotation Validation.",
+      "error_occured_in_uri": "An error has occured. Please try later or check another URI."
+    }
+  },
+  "dataset_schema": {
+    "unpublished_changes_alert": "You have unpublished changes. Please republish your mapping to view the latest changes in this Data Scheme.",
+    "browse_items": "Browse Items",
+    "add_embedder": "Add Embedder",
+    "view_values": "View Values",
+    "download_values": "Download Values",
+    "add_annotator": "Add Annotator",
+    "annotators_list": {
+      "title": "Annotators"
+    },
+    "published_annotations": {
+      "title": "Published Annotations",
+      "default_group": "Default Group",
+      "auto_exportable": "Auto-Exportable",
+      "view_annotations": "View Annotations",
+      "new_paged_validation": "New Contributor Validation",
+      "new_filter_validation": "New Filter Validation",
+      "export_all": "Export annotations and validations",
+      "score_validation_dist": "View Score - Validation Distribution",
+      "toggle_auto_exportable": {
+        "error": "There was an error."
+      }
+    }
+  },
+  "view_values_sidebar": {
+    "total_values": "Total Values",
+    "distinct_values": "Distinct Values",
+    "all": "All",
+    "literals": "Literals",
+    "iris": "IRIs",
+    "lexical_form": "Lexical Form",
+    "iri": "IRI",
+    "count": "Count",
+    "lexical_form_iri": "Lexical Form / IRI",
+    "no_data_class": "There are no items for this Class.",
+    "no_data_property": "There are no items for this Property."
+  }
+}
